@@ -450,7 +450,7 @@ button:hover::before {
 }
 
 .clock2{
-/*     border: 2px solid #FFFFFF; */
+    /* border: 2px solid #FFFFFF; */
     width: 450px;
     height: 80px;
     background-color: #FFFFFF;
