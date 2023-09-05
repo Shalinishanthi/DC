@@ -231,8 +231,9 @@ body{
     background-image:linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
 }
 
-button:hover::before {
+button:hover {
     /* content: "Party Time!"; */
+        background: transparent linear-gradient(113deg, #FC5EFF 0%, #F1A7C5 40%, #6E54EC 81%, #CB52F8 100%) 0% 0% no-repeat padding-box;
     
   }
 /* ----------------------------------------------- */
@@ -617,3 +618,132 @@ button:hover::before {
     position: absolute;
     left: 10px;
 } */
+
+/* ----------------------------------------------- */
+/* ----------------------Media query starts here------------------------- */
+/* ---------------------Page 1-------------------------- */
+
+@media only screen and (max-width:460px){
+#clock1{
+    position: absolute;
+    left: 300px;
+    
+}
+
+.container1{
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    /* font-size: 100px; */
+}
+.mrg{
+    position: absolute;
+    top: 910px;
+    left: 160px;
+}
+
+.girl{
+    position: absolute;
+    top: 1500px;
+    left: 150px;
+}
+.grab{
+    position: absolute;
+    top: 1350px;
+    left: 165px;
+}
+.schedule{
+    position: absolute;
+    top: 1030px;
+    left: 200px;
+    font-size: 30px;
+    width: 400px;
+    height: 250px;
+}
+.alarm{
+    position: absolute;
+    top: 770px;
+    font-size: 40px;
+    width: 250px;
+    height: 100px;
+    left: 300px;
+
+}
+#box1{
+    position: absolute;
+    top: 170px;
+    left: 260px;
+}
+#box2{
+    position: absolute;
+    top: 170px;
+    left: 230px;
+}
+.clock{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+}
+
+/* ------------------page 2----------------------------- */
+@media only screen and (max-width:460px){
+.grab2{
+    position: absolute;
+    top: 1350px;
+    left: 200px;
+}
+.mrg1{
+    position: absolute;
+    top: 910px;
+    left: 200px;
+}
+}
+/* ------------------page 3----------------------------- */
+@media only screen and (max-width:460px){
+    .grab4{
+        position: absolute;
+    top: 1350px;
+    left: 200px;
+    }
+    .mrg2{
+        position: absolute;
+        top: 910px;
+        left: 200px;
+    }
+}
+/* ------------------page 4----------------------------- */
+@media only screen and (max-width:460px){
+    .grab6{
+        position: absolute;
+    top: 1350px;
+    left: 200px;
+    }
+    .mrg3{
+        position: absolute;
+        top: 910px;
+        left: 200px;
+    }
+}
+
+/* ------------------page 5----------------------------- */
+@media only screen and (max-width:460px){
+    .images{
+        position: absolute;
+        top: 1000px;
+        left: 200px;
+
+    }
+.timing2{
+    position: absolute;
+    left: 300px;
+}
+.timing{
+    position: absolute;
+    left: 320px;
+}
+#Logo{
+    position: absolute;
+    left: 300px;
+}
+}
